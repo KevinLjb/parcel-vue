@@ -9,6 +9,7 @@ $ git clone https://github.com/w3c-king/parcel-vue.git
 #### 安装依赖
 
 ```bash
+$ cd parcel-vue
 $ npm install
 ```
 其中`parcel-bundler`是主要的工具，对于`vue`结尾的单文件，需要单独处理文件类型，
