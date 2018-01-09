@@ -16,7 +16,7 @@ $ npm install
 `parcel-plugin-vue`这个插件会通过`vueify`来生成对应的代码，`parcel`会自动加载`parcel-plugin`开头的依赖。
 
 
-#### 运行开发环境
+#### 运行开发环境,运行成功打开浏览器http://localhost:1234即可查看项目
 
 ```bash
 $ npm run dev
