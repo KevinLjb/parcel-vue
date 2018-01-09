@@ -3,7 +3,6 @@
 #### 初始化项目
 
 ```bash
-$ mkdir parcel-demo
 $ git clone https://github.com/w3c-king/parcel-vue.git
 ```
 
