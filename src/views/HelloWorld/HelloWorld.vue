@@ -7,13 +7,17 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
   export default {
     name: 'HelloWorld',
     data () {
-      const _this = this
       return {
-        msg: 'Welcome to Your Vue.js Appzz'
       }
+    },
+    computed: {
+      ...mapGetters([
+        'msg'
+      ])
     }
   }
 </script>
