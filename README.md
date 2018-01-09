@@ -38,7 +38,7 @@ src
 ├── components
 	├── Hello
         ├── appHello.vue
-		├── index.js
+        ├── index.js
 	├── index.js
 ├── views
     ├── HelloWorld
