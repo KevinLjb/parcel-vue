@@ -57,3 +57,10 @@ src
 
 只需要执行`npm run dev` 和 `npm run build` 就可以进行开发和构建。
 
+#### nodejs版本升级,如果您的node版本低于8.0,我们强烈建议您升级node版本(命令行升级不支持windows)
+
+```bash
+$ npm install -g n
+$ n stable
+```
+
