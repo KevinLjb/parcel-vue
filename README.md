@@ -57,6 +57,15 @@ src
 
 只需要执行`npm run dev` 和 `npm run build` 就可以进行开发和构建。
 
+#### 路由懒加载
+```bash
+// 只需将传统 import page from 'path' 方式改为 const page = () => import('path') 即可
+// 此种方式路由不会懒加载
+import HelloWorld from '../views/HelloWorld/HelloWorld.vue'
+// 此种方式引入即可实现路由懒加载,打包时js文件自动拆分
+const HelloWorld =  () => import('../views/HelloWorld/HelloWorld.vue')
+```
+
 #### nodejs版本升级,如果您的node版本低于8.0,我们强烈建议您升级node版本(命令行升级不支持windows)
 
 ```bash
