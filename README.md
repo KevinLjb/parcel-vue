@@ -1,18 +1,15 @@
-`parcel-vue` 一个基于parcel打包工具的 vue急速开发脚手架解决方案,强烈建议使用node8.0以上
+`parcel-vue` 一个基于Parcel打包工具的 VueJS急速开发脚手架解决方案,强烈建议使用node8.0以上
 
 #### 初始化项目
 
 ```bash
-// 安装脚手架
-$ npm install parcel-vue -g
-// 初始化
-$ parcel-vue projectName
+$ git clone https://github.com/w3c-king/parcel-vue.git
 ```
 
 #### 安装依赖
 
 ```bash
-$ cd projectName
+$ cd parce-vue
 $ npm install
 ```
 其中`parcel-bundler`是主要的工具，对于`vue`结尾的单文件，需要单独处理文件类型，
