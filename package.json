@@ -12,8 +12,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "less": "^2.7.3",
-    "parcel-bundler": "^1.2.0",
-    "parcel-plugin-vue": "^1.5.0",
+    "parcel-bundler": "1.4.0",
+    "parcel-plugin-vue": "1.5.0",
     "vue": "^2.5.13",
     "vuex": "^3.0.1"
   },
